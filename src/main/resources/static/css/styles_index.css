@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.navbar { 
+    background-image: #84b6f4 !important;
+    background-color: #84b6f4 !important;
+    font-size: 1em;
+  }
+  
+  
+  .navbar-brand {
+    font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+    color: white !important;
+    font-size: 2em;
+  }
+  
+  #navbarSupportedContent {
+    font-family: "Comic Sans MS", "Comic Sans" !important;
+    font-size: 1.2em;
+    color:none !important;
+  }
+  
+
+  
+  .divicon{
+    text-align: center;
+    margin-left: 20px;
+  }
+  .diviconSelect:hover{
+  opacity: 0.4;
+  cursor: pointer;
+  }
+  
+  .nav-logos{
+    font-size: 10px;
+  }
+
+ul  {
+    font-family: "Comic Sans MS", "Comic Sans" !important;
+    color: red !important;
+    background-image: #000000 !important;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10em;
+        row-gap: 3em;
+        padding: 20px;
+        border:20px;
+        margin: 20px;
+        
+        
+    }
+  }
+
+  @media (max-width: 991px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+        grid-template-rows: 1fr 1fr;
+        column-gap: 3em;
+        row-gap: 3em;
+        padding: 20px;
+        border:20px;
+        margin: 20px;
+        
+        
+    }
+  }
+
+  @media (max-width: 661px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+        grid-template-rows: 1fr 1fr;
+        column-gap: 3em;
+        row-gap: 3em;
+        padding: 20px;
+        border:20px;
+        margin: 20px;
+        
+        
+    }
+  }

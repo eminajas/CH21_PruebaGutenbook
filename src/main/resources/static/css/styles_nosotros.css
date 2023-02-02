@@ -1,0 +1,32 @@
+
+:root {
+    --azul-principal: #84b6f4;
+}
+
+.btn-primary{
+    background-color: var(--azul-principal) !important;
+    border-color: #84b6f4 !important;
+    
+
+}
+.btn-outline-success{
+    color: #84b6f4 !important;
+    border-color: var(--azul-principal) !important;
+    font-size: 1.3rem !important;
+    
+}
+
+.btn-outline-success:active{
+    color: var(--azul-principal) !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+}
+.btn-outline-success:hover{
+    color: var(--azul-principal) !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+}
+
+.a {
+    background-color: var(--azul-principal) !important;
+}

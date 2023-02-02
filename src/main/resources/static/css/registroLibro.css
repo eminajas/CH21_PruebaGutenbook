@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;  
+}
+
+.form-control{
+  display: "";
+  color: gray;
+}
+
+.alert_validation{
+  display: none;
+  color: red;
+}
+
+.sucess_validation{
+  font-weight: bold;
+  display: none;
+  color: green;
+}
